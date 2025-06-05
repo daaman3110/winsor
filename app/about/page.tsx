@@ -28,7 +28,7 @@ const teamMembers = [
   {
     name: "Soyab Kapadiya",
     role: "Founder & Managing Partner",
-    image: "/soyeb-kapadia.jpg",
+    image: "/images/team/shafi.jpeg",
     bio: "Soyab's strategic vision and operational expertise drive Winsor World Export forward, expanding our global footprint",
   },
   {
