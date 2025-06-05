@@ -34,13 +34,13 @@ const teamMembers = [
   {
     name: "Shafi Kapadiya",
     role: "Co-Founder & Partner",
-    image: "/shafi-kapadia.jpg",
+    image: "/images/team/shafi.jpeg",
     bio: "With his keen eye for quality and deep relationships with suppliers, Shafi ensures only the finest seafood makes it to our customers.",
   },
   {
     name: "Amit Patel",
     role: "Marketing Manager",
-    image: "/amit-patel.jpg",
+    image: "/images/team/amit_patel.jpg",
     bio: "Amit's understanding of international markets and customer needs helps us tailor our offerings to diverse global preferences.",
   },
   {
