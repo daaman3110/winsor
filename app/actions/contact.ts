@@ -38,12 +38,12 @@ Message: ${message}
     // Send email to the company
     await resend.emails.send({
       from: "Winsor World Export <contact@winsorworldexport.com>",
-      to: "daaman3110@gmail.com", // Replace with actual email
+      to: "winsorworldexport@gmail.com", // Replace with actual email
       subject: isQuoteRequest
         ? `Quote Request for ${productName} from ${name}`
         : `Contact Form Submission from ${name}`,
       text: emailContent,
-      replyTo: "daamanpatel4@gmail.com"
+      replyTo: "winsorworldexport@gmail.com"
     })
 
     // Send confirmation email to the user
@@ -89,7 +89,7 @@ Winsor World Export Team
         ? "Quote Request Received - Winsor World Export"
         : "Thank You for Contacting Winsor World Export",
       text: userEmailContent,
-      replyTo: "daamanpatel4@gmail.com"
+      replyTo: "winsorworldexport@gmail.com"
     })
 
     return {
