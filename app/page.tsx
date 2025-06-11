@@ -154,17 +154,17 @@ export default function Home() {
             {[
               {
                 name: "Fishes",
-                image: "/images/ribbonfish(1).png",
+                image: "/images/ribbonfish (1).webp",
                 description: "From succulent salmon to delicate cod, our fish selection offers a world of flavors.",
               },
               {
                 name: "Shrimps",
-                image: "/images/shrimp_images.jpg",
+                image: "/images/shrimp_images.webp",
                 description: "Juicy, tender shrimp in various sizes, perfect for any culinary creation.",
               },
               {
                 name: "Cephalopods",
-                image: "/images/squid4k.png",
+                image: "/images/squid4k.webp",
                 description: "Explore our range of squid, octopus, and cuttlefish for exquisite seafood dishes.",
               },
             ].map((category, index) => (
