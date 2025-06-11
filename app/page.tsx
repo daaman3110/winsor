@@ -108,7 +108,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="relative z-10 text-center text-white p-8 rounded-lg">
           <div className="mb-8">
-            <Image src="/actual_logo.png" alt="Winsor World Export Logo" width={300} height={300} className="mx-auto" />
+            <Image src="/actual_logo.webp" alt="Winsor World Export Logo" width={300} height={300} className="mx-auto" priority />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-fade-in-down font-sans drop-shadow-lg">
             Winsor World Export
