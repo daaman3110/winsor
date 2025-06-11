@@ -89,11 +89,11 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="hero-background">
-          <video key="mobile-video" ref={videoRef} autoPlay loop muted playsInline className="video-background mobile-fallback" src="ocean(3).mp4">
+          <video key="mobile-video" ref={videoRef} autoPlay loop muted playsInline className="video-background mobile-fallback" src="ocean(3)_compressed.mp4">
           </video>
           {!isMobile && (     
           <video ref={videoRef} autoPlay loop muted playsInline className="video-background">
-          <source src="/ocean(3).mp4" type="video/mp4" />
+          <source src="/ocean(3)_compressed.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>)}</div>
         <div
