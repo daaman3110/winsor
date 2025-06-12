@@ -99,7 +99,7 @@ export default function Home() {
         <div
             className="fallback-background"
             style={{
-              backgroundImage: `url('/back_ocean.png')`,
+              backgroundImage: `url('/back_ocean.webp')`,
               opacity: isMobile ? 1 : 0,
             }}
           >
@@ -619,7 +619,7 @@ export default function Home() {
               <div className="mb-8">
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Business Hours</h3>
                 <p className="text-gray-600">Monday - Saturday: 10:00 AM - 8:00 PM</p>
-                <p className="text-gray-600">Saturday: 10:00 AM - 2:00 PM</p>
+                <p className="text-gray-600">Sunday: 10:00 AM - 2:00 PM</p>
               </div>
               <div className="w-full h-64 rounded-lg overflow-hidden shadow-lg">
                 <iframe
