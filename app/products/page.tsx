@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
@@ -395,6 +395,24 @@ export default function Products() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null)
   const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false)
   const [filteredProducts, setFilteredProducts] = useState(allProducts)
+
+  useEffect(() => {
+    // Get category from URL parameters
+    const searchParams = new URLSearchParams(window.location.search)
+    const categoryParam = searchParams.get('category')
+    
+    if (categoryParam) {
+      // Map the category parameter to the correct category ID
+      const categoryMap: { [key: string]: string } = {
+        'fishes': 'fishes',
+        'shrimps': 'shrimp',
+        'cephalopods': 'cephalopods'
+      }
+      
+      const categoryId = categoryMap[categoryParam] || 'all'
+      filterProducts(categoryId)
+    }
+  }, [])
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(event.target.value)

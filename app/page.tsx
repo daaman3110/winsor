@@ -191,7 +191,7 @@ export default function Home() {
                     {category.description}
                   </p>
                   <Link
-                    href={`/products#${category.name.toLowerCase()}`}
+                    href={`/products?category=${category.name.toLowerCase()}`}
                     className="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors duration-300 opacity-0 group-hover:opacity-100"
                   >
                     Explore {category.name}
